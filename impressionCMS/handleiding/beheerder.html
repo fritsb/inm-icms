@@ -1,0 +1,742 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<!-- 
+			Project: i-CMS
+			Auteur: Frits Bosschert
+
+			Bestandsnaam: beheerder.html
+			Beschrijving: De handleiding voor de beheerders van i-CMS, het content management systeem van 
+			Impression New Media.
+																																		 -->
+		<meta name="author" content="Frits Bosschert">
+		<meta name="copyright" content="2005 Frits Bosschert">
+		<meta name="keywords" content="i-CMS, Impression New Media, Hogeschool van Amsterdam, Frits Bosschert, Hogere Informatica, stage">
+		<meta name="description" content="De handleiding voor i-CMS, het Content Management Systeem van Impression New Media. Ontwikkeld door Frits Bosschert, student van de opleiding Hogere Informatica aan de Hogeschool van Amsterdam. ">
+		<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Handleiding voor beheerders van i-CMS</title>
+
+<style type="text/css">
+BODY {
+	margin: 20px;
+	font-family: Verdana, Sans-serif;
+}
+H1 {	
+	font-weight: bold;
+	font-size: 15px;
+}
+H2 {
+	font-weight: bold;
+	font-size: 13px;
+}
+H3 {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 11px;
+}
+.standard {
+	font-size: 10px;
+}
+.standardbold {
+	font-weight: bold;
+	font-size: 10px;
+}
+#voorkant {
+	width: 740px;
+
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+#gegevens {
+	width: 740px;
+	padding: 150px 10px 40px 20px;
+	text-align: left;
+}
+#gegevens TD {
+	font-size: 15px;
+}
+#gegevens TD.bold {
+	font-weight: bold;
+}
+#tekst {
+	width: 740px;	
+	font-size: 11px;
+	text-align: left;
+}
+#tekst HR {
+	width: 800px;
+	color: black;
+}
+#tekst A {
+	color: black;
+	text-decoration: underline;
+}
+#tekst A:hover {
+	text-decoration: none;
+}
+#tekst TABLE {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+#tekst TABLE.small {
+	width: 400px;
+}
+#tekst TABLE.large {
+	width: 700px;
+}
+#tekst TD {
+	padding: 3px 3px 3px 5px;
+	vertical-align: top;
+}
+#tekst TD.tableheader {
+	background-color: #336699;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+}
+#tekst TD.tablesubheader {
+	background-color: #6991bb;
+	font-weight: bold;
+}
+#tekst TD.light {
+	background-color: #eeeeee;
+}
+#tekst TD.dark {
+	background-color: #cccccc;
+}
+#tekst TD.code {
+	background-color: #eeeeee;
+	padding: 10px 5px 10px 5px;	
+}
+
+</style>
+</head>
+<body>
+
+<div id="voorkant">
+<img src="logo.png" border="0" width="164" height="48">
+<br><br>
+Beheerdershandleiding 
+<br><br>
+<h1>Geschreven door Frits Bosschert</h1>
+<br><br>
+<h1>In opdracht van: <br>Impression New Media</h1>
+<br>
+<a href="http://www.impression.nl/" target="_blank"><img src="implogo.jpg" border="0" width="119" height="47"></a>
+</div>
+
+<div id="gegevens">
+	<table>
+		<tr><td class="bold">Versie:</td><td>1.1</td></tr>
+		<tr><td class="bold">Datum:</td><td>15 juni 2005</td></tr>
+	</table>
+</div>
+
+<div id="tekst">
+<hr color="black" size="5">
+<h1>Inleiding</h1>
+Dit document is de handleiding voor beheerders van het content management systeem i-CMS van Impression New Media. i-CMS is ontwikkeld door Frits Bosschert in opdracht van Impression New Media.
+<br>
+<h1>Inhoud</h1>
+<ul>
+<li> 1: Beschrijving i-CMS
+<li> 2: i-CMS opzetten
+<ul>
+	<li> 2.1: i-CMS installeren
+	<li> 2.2: Registratie van de eerste beheerder
+</ul>
+<li> 3: Websitesbeheer 
+<ul>
+	<li> 3.1: Website aanmaken
+	<li> 3.2: Gebruiker aanmaken
+	<li> 3.3: Gebruikersrechten instellen
+	<ul>
+		<li> 3.3.1: Rechten voor onderdeel- en paginabeheer
+		<li> 3.3.2: Rechten voor beheer van blokken
+		<li> 3.3.3: Instellingen voor bestanden
+	</ul>
+	<li> 3.4: Inhoud van websites beheren
+	<ul>
+		<li> 3.3.1: Onderdelen
+		<li> 3.3.2: Subonderdelen
+		<li> 3.3.3: Pagina's
+		<li> 3.3.4: Blokken
+	</ul>	
+	<li> 3.5: Website-informatie bewerken
+	<li> 3.6: Website verwijderen
+</ul>
+<li> 4: Gebruikersbeheer
+<ul>
+	<li> 4.1: Gebruiker aanmaken
+	<li> 4.2: Gebruikersrechten instellen
+	<li> 4.3: Gebruiker bewerken
+	<li> 4.4: Gebruiker verwijderen
+</ul>
+<li> 5: Beheerdersbeheer
+<ul>
+	<li> 5.1: Beheerder aanmaken
+	<li> 5.2: Beheerder bewerken
+	<li> 5.3: Beheerder verwijderen
+</ul>
+<li> 6: Bestandsbeheer
+<ul>
+	<li> 6.1: Bestand toevoegen
+	<li> 6.2: Bestand bewerken
+	<li> 6.3: Bestand verwijderen
+</ul>
+<li> 7: Persoonlijke informatie
+<li> 8: Logboek
+<ul>
+	<li> 8.1: Logboek bekijken
+	<li> 8.2: Logboek legen
+</ul>
+<li> Bijlage A: Checklist voor nieuwe website
+<li> Bijlage B: Handige Links
+</ul>
+<h1>Hoofdstuk 1: Beschrijving i-CMS</h1>
+i-CMS is een content management systeem ontwikkeld door Frits Bosschert in opdracht van Impression New Media. Met dit content
+management systeem is het mogelijk om meerdere websites tegelijk te beheren. Een ander voordeel is dat i-CMS, inclusief de database, en 
+de lay-out van de klantenwebsites op 2 verschillende servers kunnen staan.<br><br>
+Het CMS is door klanten en beheerders van Impression New Media toegangelijk. De beheerders van Impression New Media hebben
+veel meer mogelijkheden in het systeem dan de klanten. De mogelijkheden van de klanten in het systeem kunnen door de 
+beheerders van Impression New Media worden ingesteld. <br><br>
+De gegevens van de klantenwebsites wordt via de opmaaktaal XML opgevraagd en door de XSLT-scripts omgezet naar leesbare
+content. Doordat de gegevens via XML wordt opgevraagd is het mogelijk om de gegevens en de lay-out van de pagina om twee 
+verschillende webservers te zetten. 
+<br><br>
+<h1>Hoofdstuk 2: i-CMS opzetten</h1>
+<h2>2.1 i-CMS installeren</h2>
+Als i-CMS nog nooit eerder is gebruikt op de server, dan moet als eerste gekeken worden of alle benodigdheden op de server staan. De server waarop i-CMS staat heeft namelijk het volgende:
+<ul><li>PHP 5, met:
+		<ul>
+			<li>Improved MySQL Extension: <a href="http://nl2.php.net/manual/nl/ref.mysqli.php">http://nl2.php.net/manual/nl/ref.mysqli.php</a>
+			<li>Mail: <a href="http://nl2.php.net/manual/nl/ref.mail.php">http://nl2.php.net/manual/nl/ref.mail.php</a>
+		</ul>
+<li>MySQL met:
+		<ul><li>InnoDB: <a href="http://dev.mysql.com/doc/mysql/en/InnoDB.html">http://dev.mysql.com/doc/mysql/en/InnoDB.html</a></ul>
+</ul>
+
+De server waarop de websites van de klanten op te komen staan heeft de volgende vereisten:
+<ul><li>PHP 5, met:
+		<ul>
+			<li>SimpleXML: <a href="http://nl2.php.net/manual/nl/ref.simplexml.php">http://nl2.php.net/manual/nl/ref.simplexml.php</a>
+			<li>Mail: <a href="http://nl2.php.net/manual/nl/ref.mail.php">http://nl2.php.net/manual/nl/ref.mail.php</a>
+		</ul>
+		
+</ul>
+
+Zorg dat het SQL-script 'i-cms_db.sql' wordt uitgevoerd, dit kan bijvoorbeeld via phpMyAdmin. 
+Als het script succesvol is uitgevoerd, dan kan het configuratiebestand van i-CMS worden aangepast. Deze heet 'config.php' en staat in de map 'config'. In dit configuratiebestand staan bij de variabelen vermeld wat ze betekenen.
+<br><br>
+Voor de duidelijkheid staat hieronder ook nog een overzicht met een extra toelichting. 
+<br><br>
+<table class="large" cellspacing="0">
+	<tr><td colspan="2" class="tableheader">Tabel 2.1: Betekenis variabelen configuratiebestand</td></tr>
+	<tr><td class="tablesubheader" width="20%">Variabele:</td><td class="tablesubheader">Betekenis:</td></tr>
+	<tr><td class="light">$strHostname</td><td class="light">De hostname welke gebruikt wordt voor de verbinding met de database.</td></tr>
+	<tr><td class="dark">$strGebruikersnaam</td><td class="dark">De gebruikersnaam welke gebruikt wordt voor de verbinding met de database.</td></tr>
+	<tr><td class="light">$strWachtwoord</td><td class="light">Het wachtwoord welke gebruikt wordt voor de verbinding met de database.</td></tr>
+	<tr><td class="dark">$strDatabase</td><td class="dark">De database welke gebruikt wordt voor de verbinding met de database.</td></tr>
+	<tr><td class="light">$strDBType</td><td class="light">De soort databaseverbinding welke gebruikt wordt in het systeem. Hier zijn twee opties mogelijk:
+	<li>'mysqli' - De improved MySQL extensie, deze extensie is geimplementeerd in PHP 5 en werkt goed samen met MySQL 4. Deze instelling wordt aangeraden.
+	<li>'mysql' - De orginele MySQL extensie. Deze is amper getest in combinatie met het systeem.
+	</td></tr>
+	<tr><td class="dark">$strCMSURL</td><td class="dark">Het internetadres van het systeem (met / op het einde).</td></tr>
+	<tr><td class="light">$strCMSDir</td><td class="light">De map waarin het systeem staat (met / op het einde, niet aan het begin).</td></tr>
+	<tr><td class="dark">$strGebIndex</td><td class="dark">Het bestand voor de gebruikersindex, standaard index.php.</td></tr>
+	<tr><td class="light">$strAdmIndex</td><td class="light">Het bestand voor de beheerdersindex, standaard admin.php.</td></tr>
+	<tr><td class="dark">$strCMSNaam</td><td class="dark">De naam van het content management systeem, standaard i-CMS.</td></tr>
+	<tr><td class="light">$strBedrijfsNaam</td><td class="light">De naam van het bedrijf, standaard Impression New Media.</td></tr>
+	<tr><td class="dark">$strInfoMailAdres</td><td class="dark">Het e-mailadres van het bedrijf, standaard info@impression.nl.</td></tr>
+	<tr><td class="light">$strUploadMap</td><td class="light">De map waar de bestanden van een website in komen. Voor elke website wordt nog een submap aangemaakt.</td></tr>
+	<tr><td class="dark">$strMaximaalAantalUur</td><td class="dark">Het aantal uur dat een gebruiker of beheerder ingelogd mag blijven. Zonder aanhalingstekens en alleen hele getallen.<br>Als deze variabele op 0 staat, dan wordt deze functie niet ingeschakeld.</td></tr>
+	<tr><td class="light">$strGebHandleidingURL</td><td class="light">Het adres naar de gebruikershandleidng.</td></tr>
+	<tr><td class="dark">$strAdmHandleidingURL</td><td class="dark">Het adres naar de beheerdershandleidng.</td></tr>
+	<tr><td class="light">$arrTables</td><td class="light">Een array met de tabellen erin vermeld. Deze wordt gebruikt bij de installatie om te controleren of de tabellen wel juist zijn aangemaakt.</td></tr>
+</table>
+<br>
+<h2>2.2 Registratie van de eerste beheerder</h2>
+Als de variabelen in het configuratiebestand juist zijn ingevuld, dan kan het bestand voor de beheerdersindex worden aangeroepen. Standaard is dit de 'admin.php'.
+<br><br>
+Wanneer men daar voor het eerst op komt, worden ze doorgestuurd naar een pagina waar ze zich kunnen registreren als beheerder. Aangezien deze beheerder dan de enigste aanwezige beheerder in het systeem is, ontvangt deze ook alle rechten.
+<br><br>
+Volg de instructies op die op de pagina zijn vermeld. De knop "Genereer wachtwoord" kan worden gebruikt om automatisch een wachtwoord te genereren. De reeds ingevulde gegevens blijven gewoon staan.
+Wanneer het registreren is gelukt, dan komt er een pagina met de melding "Beheerder succesvol aangemaakt" in beeld. Nu kan er ingelogd worden door op de link te klikken of gelijk naar de pagina met de beheerdersindex te gaan.
+<br><br>
+Na het invoeren van de juiste logingegevens, komt de beheerder uit bij het beheerdersgedeelte. Daar heeft de beheerder de toegang tot de volgende onderdelen:
+<ul>
+<li> Websitesbeheer
+<li> Gebruikersbeheer
+<li> Beheerdersbeheer
+<li> Bestandsbeheer
+<li> Persoonlijke informatie
+<li> Logboek
+</ul>
+
+<h1>Hoofdstuk 3: Websitesbeheer</h1>
+Als de beheerder op de pagina van het websitesbeheer terecht is gekomen, dan ziet de beheerder een overzicht van de aanwezige websites in het systeem. Door op een website-titel te klikken, kan de beheerder meer informatie over een bepaalde website bekijken.
+Daarnaast heeft de beheerder nog meer mogelijkheden, deze staan hieronder verder toegelicht.
+
+<h2>3.1 Website aanmaken</h2>
+Om een website aan te maken hoeft er alleen op de link 'Voeg een website toe' te klikken. Dan verschijnt er een formulier waar de algemene gegevens voor een website ingevuld moet worden. 
+Wat de websitecode is en waarvoor deze gebruikt wordt, dat wordt in Bijlage A toegelicht.
+<br><br>Nadat de website is aangemaakt, verschijnt er een formulier in beeld om een gebruiker te koppelen aan de website. 
+<br>
+<h2>3.2 Gebruiker aanmaken</h2>
+Vul nu de gegevens van de gebruiker in. Dit hoeft niet gelijk na het aanmaken van de website. Er kan ook ervoor worden gekozen om dit later te doen via het gebruikersbeheer-gedeelte. 
+<br><br>
+De benodigde gegevens zijn: voornaam, achternaam, e-mailadres, bijbehorende website, gebruikersnaam en wachtwoord. De overige gegevens zijn misschien handig om bij te houden, maar zijn dus niet verplicht.
+Om automatisch een wachtwoord te generen druk dan op de knop "Genereer wachtwoord". De reeds ingevulde gegevens blijven gewoon staan.
+<br><br>
+Als de gebruiker is toegevoegd, verschijnt er een formulier om de rechten van de gebruiker in te stellen. Deze hoeven niet gelijk ingevuld worden, dit kan ook later via het gebruikersbeheer-gedeelte. 
+<br>
+<h2>3.3 Gebruikersrechten instellen</h2>
+De gebruikersrechten zijn ingedeeld in een drie verschillende categorieën. Deze zijn:
+<ul>
+<li> Rechten voor onderdeel- en paginabeheer
+<li> Rechten voor beheer van blokken
+<li> Instellingen voor bestanden
+</ul>
+Deze worden hieronder verder toegelicht.
+<br><br>
+<h3>3.3.1 Rechten voor onderdeel- en paginabeheer</h3>
+Als een gebruiker onderdelen mag beheren, betekent dit over het algemeen dat de gebruiker onderdelen mag aanmaken, bewerken en verwijderen. Het bewerken en verwijderen van een onderdeel is niet altijd van toepassing. Een beheerder van Impression New Media kan een onderdeel zo instellen dat deze niet bewerkbaar is, dus is bewerken of verwijderen niet mogelijk. 
+<br><br>
+Als een gebruiker subonderdelen mag beheren, betekent dit over het algemeen dat de gebruiker subonderdelen mag aanmaken, bewerken en verwijderen. Het aanmaken van een subonderdeel is niet altijd van toepassing, een beheerder kan de bovenliggende onderdeel zo instellen dat deze niet bewerkbaar is. Dit betekent ook dat er geen subonderdelen aangemaakt kan worden.
+Het bewerken en verwijderen van een onderdeel is ook niet altijd van toepassing. Een beheerder kan een subonderdeel zo instellen dat deze niet bewerkbaar is, dus is bewerken of verwijderen niet mogelijk.
+<br><br>
+Het beheren van een pagina houdt in dat de gebruiker pagina's kan aanmaken, bewerken en verwijderen. Het aanmaken van pagina's kan alleen als het bovenliggende onderdeel bewerkbaar is. Het bewerken en verwijderen van een pagina kan ook alleen als deze pagina bewerkbaar is.
+<br><br>
+Het bekijken van de (sub)onderdeelinformatie en pagina of de inhoud van het (sub)onderdeel is voor iedere gebruiker beschikbaar. Dit geldt ook voor de pagina's.
+<br><br>
+<h3>3.3.2 Rechten voor beheer van blokken</h3>
+De pagina's bestaan uit een aantal blokken. Hier kan worden ingesteld welke blokken de gebruiker kan toevoegen aan de website.
+De blokken zorgen voor het uiteindelijke content op de website.
+<br>Hieronder staat een overzicht van wat de verschillende blokken inhouden:
+<br><br>
+<table class="large" cellspacing="0">
+	<tr><td colspan="2" class="tableheader">Tabel 3.1: Toelichting bij blokken</td></tr>
+	<tr><td class="tablesubheader" width="20%">Blok:</td><td class="tablesubheader">Uitleg:</td></tr>
+	<tr><td class="light">Afbeelding</td><td class="light">Een afbeelding op een pagina toevoegen, bewerken of verwijderen. </td></tr>
+	<tr><td class="dark">Contactformulier</td><td class="dark">Een contactformulier op een pagina toe voegen, bewerken of verwijderen. </td></tr>
+	<tr><td class="light">Downloadslink</td><td class="light">Een link naar een download op een pagina toevoegen, bewerken of verwijderen.</td></tr>
+	<tr><td class="dark">Flash</td><td class="dark">Een flash-bestand op een pagina toevoegen, bewerken of verwijderen.</td></tr>
+	<tr><td class="light">HTML code</td><td class="light">HTML-code aan een pagina toevoegen, bewerken of verwijderen. </td></tr>
+	<tr><td class="dark">Links</td><td class="dark">Een link naar een website op een pagina toevoegen, bewerken of verwijderen.</td></tr>
+	<tr><td class="light">Tekst met afbeelding</td><td class="light">Een afbeelding met tekst op een pagina toevoegen, bewerken of verwijderen.</td></tr>
+	<tr><td class="dark">Tekst</td><td class="dark">Een blok tekst op een pagina toevoegen, bewerken en verwijderen.</td></tr>
+	<tr><td class="light">WYSIWYG</td><td class="light">Een blok toevoegen en bewerken met de 'What You See Is What You Get'-editor. Het is dan ook mogelijk om blokken van deze types te verwijderen.</td></tr>
+</table>
+<br><br>
+<h3>3.3.3 Instellingen voor bestanden</h3>
+Er kunnen een aantal dingen worden ingesteld met betrekking tot het bekijken en uploaden van bestanden. <br><br>
+Er kan worden ingesteld of een gebruiker de bestanden van een website mag bekijken. Als deze optie uit staat, dan houdt
+dit in dat de gebruiker helemaal geen toegang heeft tot het bestandsbeheer-gedeelte.
+Daarnaast kan er worden ingesteld of een gebruiker bestanden mag bewerken en verwijderen. <br><br>
+Ook kan er worden ingesteld of een gebruiker bestanden mag toevoegen aan de website. Daarbij hoort ook de optie
+om de extensies van de bestanden op te geven welke de gebruiker mag uploaden. Het is mogelijk om een aantal standaard-formaten te kiezen.
+<br>Als laatste kan er per gebruiker worden opgegeven wat de maximale grootte is van de bestanden die hij mag uploaden.
+<br><br>
+<h2>3.4 Inhoud van website beheren</h2>
+Dit is het onderdeel waar het content management systeem eigenlijk voor is ontworpen. Om de inhoud van de website te bewerken, moet de beheerder eerst naar het websitesoverzicht gaan. 
+Daar kan de beheerder op het eerste icoontje drukken naast de naam van de website.
+De beheerder kan ook eerst op de naam klikken om de informatie van de website te bekijken. Op dat scherm staat onder aan ook een link met 'Bewerk inhoud'. De beheerder komt als eerste uit bij het overzicht van de website. Er kan op elk moment terug worden gegaan door op de naam van de website te klikken.
+<br><br>
+
+<h3>3.4.1 Onderdelen</h3>
+Onderdelen zijn er voor de structuur op de website. Onder de onderdelen komen de subonderdelen of pagina's te 'hangen'.
+<br><br>
+Als er nog geen onderdelen zijn, dan moet er een onderdeel worden toegevoegd door op de link "Voeg een onderdeel toe" te klikken. Daar kan de titel en omschrijving van het onderdeel worden ingevuld. 
+<br><br>
+Ook kan er worden opgegeven of het onderdeel zichtbaar en bewerkbaar is of niet. Zichtbaar betekent dat het onderdeel en de onderliggende pagina's op de website verschijnen. Bewerkbaar betekent dat de gebruiker het onderdeel kan bewerken en verwijderen. Hij kan dan ook nieuwe subonderdelen of pagina's aanmaken, mits hij daar de rechten voor heeft natuurlijk.
+<br><br>
+Bij het verwijderen van een onderdeel worden ook de onderliggende subonderdelen, pagina's en blokken verwijderd.
+<br><br><h3>3.4.2 Subonderdelen</h3>
+Er kunnen subonderdelen worden toegevoegd aan een onderdeel. Deze kunnen worden toegevoegd door op de link "Nieuw subonderdeel" te klikken bij het overzicht van de inhoud van een website. Het is ook mogelijk door op de link "Voeg subonderdeel toe" te klikken bij het bekijken van de informatie van een onderdeel. <br><br>
+Subonderdelen hangen aan een ander onderdeel, vandaar de toevoeging 'sub'. Voor de rest zijn subonderdelen hetzelfde als gewone onderdelen.
+<br><br><h3>3.4.3 Pagina's</h3>
+Pagina's zijn er ook voor de structuur op de website. Onder de pagina's komen de blokken te 'hangen'. 
+<br><br>
+Pagina's kunnen worden toegevoegd door op de link "Nieuwe pagina" te klikken bij het overzicht van de inhoud van een website. Het is ook mogelijk door op de link "Voeg pagina toe" te klikken bij het bekijken van de informatie van een (sub)onderdeel. 
+<br><br>
+Bij het aanmaken of bewerken van een pagina kan er een titel worden opgegeven. Deze kan eventueel op de website zelf getoond worden, dit hangt af van de instellingen in het XSLT-bestand. <br>
+Ook moet er een aantal blokken worden opgegeven. Dit is het aantal blokken die op een pagina komt te staan. <br>
+Daarnaast kan er worden opgegeven of de pagina zichtbaar en bewerkbaar is of niet. Zichtbaar betekent dat de pagina en de onderliggende blokken op de website verschijnen. Bewerkbaar betekent dat de gebruiker de pagina kan bewerken en verwijderen. Hij kan dan ook nieuwe blokken aanmaken, mits hij daar de rechten voor heeft natuurlijk.
+<br><br>
+Bij het verwijderen van een pagina worden ook de onderliggende blokken verwijderd.
+<br><br>
+<h3>3.4.4 Blokken</h3>
+Er zijn dus een aantal verschillende soorten blokken met content die toegevoegd kunnen worden. De content van de blokken komt uiteindelijk op de website te staan.
+In de tabel 3.1 in hoofdstuk 3.3.3 staat de informatie over de verschillende blokken.<br><br>
+Een blok kan worden toegevoegd door bij het bekijken van de informatie van een pagina op de link "Voeg blok toe" te klikken. 
+Dan verschijnt er een formulier waar de standaardgegevens van het blok ingevuld kan worden. De lay-outeigenschappen zijn niet verplicht in te vullen, evenals de extra opties. 
+In de tabel hieronder staat een toelichting bij alle opties:
+<br><br>
+<table class="large" cellspacing="0">
+	<tr><td colspan="2" class="tableheader">Tabel 3.2: Betekenis instellingen bij blokken</td></tr>
+	<tr><td class="tablesubheader" width="20%">Veld:</td><td class="tablesubheader">Betekenis:</td></tr>
+	<tr><td class="light">Titel</td><td class="light">De titel van het betreffende blok.</td></tr>
+	<tr><td class="dark">Bloktype</td><td class="dark">Het soort type van de blok.</td></tr>
+	<tr><td class="light">Zichtbaar</td><td class="light">Instelling of het blok op de website komt te staan of niet.</td></tr>
+	<tr><td class="dark">Bewerkbaar</td><td class="dark">Instelling of het blok bewerkbaar is door de gebruikers of niet.</td></tr>
+	<tr><td class="light">Uitlijning</td><td class="light">De uitlijning van het betreffende blok. De content kan links, gecentreerd of rechts staan.</td></tr>
+	<tr><td class="dark">Breedte</td><td class="dark">De breedte van het blok. Het is niet verplicht om het veld in te vullen.</td></tr>
+	<tr><td class="light">Hoogte</td><td class="light">De hoogte van het blok. Het is niet verplicht om het veld in te vullen.</td></tr>
+	<tr><td class="dark">Kader-stijl</td><td class="dark">De stijl van de kader, die om het blok heen zit. Als hier niet voor de optie "Geen kader" wordt gekozen, zijn de volgende twee velden ook noodzakelijk om in te vullen.</td></tr>
+	<tr><td class="light">Kader-breedte</td><td class="light">De breedte van de kader, dus hoe dik de lijn is van de kader.</td></tr>
+	<tr><td class="dark">Kader-kleur</td><td class="dark">De kleur van de kader, dus welke kleur de lijn van de kader heeft.</td></tr>
+	<tr><td class="light">Achtergrondkleur</td><td class="light">Achtergrondkleur van het blok. Het is niet verplicht om het veld in te vullen.</td></tr>
+	<tr><td class="dark">Intro</td><td class="dark">Intro kan gebruikt worden voor headlines. Het is niet verplicht om het veld in te vullen.</td></tr>
+	<tr><td class="light">Begindatum</td><td class="light">De begindatum van het blok. Deze kan gebruikt worden als je een blok alleen vanaf een bepaalde tijd wilt laten zien. Het is niet verplicht om het veld in te vullen.</td></tr>
+		<tr><td class="dark">Einddatum</td><td class="dark">De einddatum van het blok. Deze kan gebruikt worden als je een blok alleen tot een bepaalde tijd wilt laten zien. Het is niet verplicht om het veld in te vullen.</td></tr>
+</table>
+<br>
+
+Nadat deze gegevens zijn ingevuld, komt u op een 2e pagina. Deze 2e pagina is per blok verschillend. Elk blok heeft namelijk aparte gegevens nodig.
+Hieronder wordt ingegaan op de verschillende blokken.
+
+<br><br><b>Afbeelding</b><br>
+Een blok van het type 'Afbeelding' kan gebruikt worden om een afbeelding toe te voegen op de pagina. Deze afbeelding kan al zijn geupload, maar het kan ook een afbeelding zijn die op 
+internet staat. Het is hier mogelijk om de breedte en de hoogte van de afbeelding op te geven. Dit is niet verplicht, want als de velden leeg worden gelaten, dan worden de standaardbreedte en hoogte gebruikt.
+Daarnaast kan er een breedte van een kader worden opgegeven. Deze is standaard 0. <br>
+Ook is het mogelijk om een zogenaamde 'alt-tekst' op te geven. Deze tekst komt er te staan, als de afbeelding niet kan worden geladen.
+
+<br><br><b>Contactformulier</b><br>
+Een blok van het type 'Contactformulier' kan gebruikt worden om een contactformulier toe te voegen op de pagina. Hiervoor zijn wel een aantal gegevens nodig.
+De gegevens staan hieronder in de tabel verder toegelicht. 
+<br><br>
+<table class="large" cellspacing="0">
+	<tr><td colspan="2" class="tableheader">Tabel 3.3: Betekenis instellingen bij contactform-blok</td></tr>
+	<tr><td class="tablesubheader" width="20%">Veld:</td><td class="tablesubheader">Betekenis:</td></tr>
+	<tr><td class="light">E-mailadres</td><td class="light">Het e-mailadres waar de gegevens naar toe worden verstuurd.</td></tr>
+	<tr><td class="dark">Vraag om adres</td><td class="dark">De optie of er om een adres gevraagd moet worden of niet. Als deze optie aanstaat, dan komen er een aantal velden mbt. adresgegevens bij in het contactformulier.</td></tr>
+	<tr><td class="light">Vraag om telefoonnummer</td><td class="light">De optie of er om een telefoonnummer gevraagd moet worden of niet. Als deze optie aanstaat, dan komen er een aantal velden mbt. telefoongegevens bij in het contactformulier.</td></tr>
+	<tr><td class="dark">Taal</td><td class="dark">De taal van het contactformulier. De termen kunnen in het Nederlands of Engels verschijnen.</td></tr>
+	<tr><td class="light">Tekst voor als bericht is verstuurd</td><td class="light">Deze tekst krijgt de gebruiker als het gelukt is om de e-mail te versturen.</td></tr>
+	<tr><td class="dark">Tekst voor als bericht niet is verstuurd</td><td class="dark">Deze tekst krijgt de gebruiker als het niet is gelukt om de e-mail te versturen.</td></tr>
+	<tr><td class="light">Lettertype</td><td class="light">De lettertype van de bovenstaande tekst.</td></tr>
+	<tr><td class="dark">Lettergrootte</td><td class="dark">De lettergrootte van de bovenstaande tekst.</td></tr>
+</table>
+
+<br><b>Downloadslink</b><br>
+Een blok van het type 'Downloadslink' kan gebruikt worden om een link naar een bestand toe te voegen op de pagina.
+Het is mogelijk om een bestand uit de lijst te kiezen, dit zijn de bestanden die de gebruiker zelf upgeload heeft. 
+Ook is het mogelijk om een internetadres op te geven in plaats van een bestand te selecteren. 
+Daarnaast moet er een naam worden opgegeven van de link. Die naam wordt uiteindelijk gelinkt.
+
+<br><br><b>Flash</b><br>
+Een blok van het type 'Flash' kan gebruikt worden om een flash-bestand toe te voegen op de pagina. Hierbij is het weer
+mogelijk om een bestand uit de lijst te kiezen, dit zijn de bestanden die de gebruiker zelf upgeload heeft. Maar 
+het is ook mogelijk om een internetadres op te geven in plaats ven een bestand te selecteren. <br><br>
+Voor de rest is het mogelijk om de breedte en hoogte van het flash-bestand op te geven. De kwaliteit staat standaard 
+op autohigh, maar als dit te hoog is kan deze lager worden ingesteld. <br><br>
+Als de optie 'loop' is aangevinkt, betekent dat het flash-bestand steeds wordt herhaald. Als de optie 'Automatisch afspelen' is 
+aangevinkt, betekent dit dat het flash-bestand bij het aanroepen van de pagina gelijk begint. <br>
+Dan is het ook nog mogelijk om de achtergrondkleur in te stellen. Als deze leeg wordt gelaten, wordt er geen achtergrondkleur gebruikt. 
+
+<br><br><b>HTML code</b><br>
+Een blok van het type 'HTML code' kan gebruikt worden om een stuk HTML-code toe te voegen op de pagina. In het tekstvak
+dat er staat, kan er HTML-code worden ingevoerd. 
+
+<br><br><b>Links</b><br>
+Een blok van het type 'Links' kan gebruikt worden om een link naar een andere website toe te voegen op de pagina. Vul het
+internetadres in en vervolgens de naam van de link in. Die naam wordt uiteindelijk naar de andere website gelinkt.
+
+<br><br><b>Tekst</b><br>
+Een blok van het type 'Tekst' kan gebruikt worden om een stuk tekst toe te voegen op de pagina. In het tekstvak kan
+de tekst worden ingevoerd. De lettertype, -grootte en -kleur kunnen daaronder worden ingesteld.
+
+<br><br><b>Tekst met een afbeelding</b><br>
+Een blok van het type 'Tekst met een afbeelding' kan gebruikt worden om een stuk tekst met een afbeelding erbij toe te voegen op de pagina. 
+<br>Als eerste kan er een afbeelding geselecteerd worden in het overzicht van bestanden. Maar er kan ook worden gekozen om het internetadres van een
+ afbeelding op te geven. Vervolgens kan er weer de breedte, hoogte en kaderbreedte worden opgegeven. Deze laatste 3 velden kunnen ook leeg
+ worden gelaten. Er kan ook nog een tekst worden opgegeven die wordt gebruikt in het geval dat het bestand niet gevonden kan worden. <br><br>
+ Vervolgens kan er een indeling worden gekozen. Klik op het betreffende figuur om die indeling te kiezen. 
+ De letters 'abcd' stelt het stuk tekst voor en de afbeelding wordt vervangen door de opgegeven afbeelding.
+ <br><br>Vervolgens kan de tekst ingevoerd worden en de lettertype, -grootte en kleur van de tekst. 
+
+
+<br><br><b>What You See Is What You Get-editor</b><br>
+Deze manier van werken is het simpelst, maar vereist wel een Internet Explorer of Mozilla FireFox browser. Het zal dus <i>niet</i> werken met een Safari-browser.
+<br><br>
+Via deze manier werk je in een soort tekst-editor omgeving. Het is mogelijk om afbeeldingen, links, tabellen en dergelijke in te voeren, maar dit vereist wel 
+wat ervaring met het systeem. 
+
+<h2>3.5 Website-informatie bewerken</h2>
+Om een website te bewerken, kan er op de link geklikt worden in het website-overzicht. Ook is het mogelijk om bij het het bekijken van 
+de website-informatie op de link "Bewerk informatie" te klikken. Het is dan mogelijk om de algemene informatie te bewerken.
+
+<h2>3.6 Website verwijderen</h2>
+Om een website te verwijderen, kan er op de link worden geklikt in het website-overzicht. Ook is het mogelijk om bij het bekijken van
+ de website-informatie op de link "Verwijder website" te klikken.
+<br>Als er een website wordt verwijderd, dan worden alle bijbehorende gebruikers, onderdelen, pagina's en blokken verwijderd. Ook worden de bestanden uit de database
+ verwijderd. De bestanden die bij de website hoort, blijven echter wel op de webserver staan. Deze zullen handmatig verwijderd moeten worden.
+<h1>Hoofdstuk 4: Gebruikersbeheer</h1>
+Als de beheerder op de pagina van het gebruikersbeheer terecht is gekomen, dan ziet de beheerder een overzicht van de aanwezige gebruikers in het systeem. Als de beheerder op de naam van een gebruiker klikt, dan komt er meer informatie over de gebruiker in het scherm.
+Daarnaast heeft de beheerder ook andere mogelijkheden, deze staan hieronder verder toegelicht.
+<h2>4.1 Gebruikers aanmaken</h2>
+Een gebruiker aanmaken kan door op de link "Voeg gebruiker toe" te klikken in het gebruikersoverzicht. Dan verschijnt er een formulier 
+met een aantal standaardgegevens. Na het invullen van dit formulier, komt er een 2e formulier in het beeld. Deze zijn om de 
+gebruikersrechten in te stellen.  Dit hoeft niet perse op dit moment. Dit kan ook op een later moment. 
+
+<h2>4.2 Gebruikersrechten instellen</h2>
+Bij het gebruikersrechten instellen kan je de gebruiker rechten geven van zijn of haar mogelijkheden in het systeem. In hoofdstuk 3.3 wordt hier meer informatie over gegeven.
+<h2>4.3 Gebruikers bewerken</h2>
+Om een gebruiker te bewerken, klik op de link in het gebruikersoverzicht. Het is ook mogelijk om eerst de informatie over de gebruiker te bekijken en dan op de link "Bewerk gebruiker" te klikken.
+<br>Dan verschijnt er een formulier in beeld om de gegevens te bewerken. 
+<h2>4.3 Gebruikers verwijderen</h2>
+Om een gebruiker te verwijderen, klik op de link in het gebruikersoverzicht. Het is ook mogelijk om eerst de informatie over de gebruiker te bekijken en dan op de link "Verwijder gebruiker" te klikken.
+
+
+<h1>Hoofdstuk 5: Beheerdersbeheer</h1>
+Als de beheerder op de pagina van het beheerdersbeheer terecht is gekomen, dan ziet de beheerder een overzicht van de aanwezige beheerders in het systeem. Daarnaast heeft de beheerder ook andere mogelijkheden, deze staan hieronder verder toegelicht.
+<h2>5.1 Beheerders aanmaken</h2>
+Een nieuwe beheerder aanmaken kan door op de link "Voeg beheerder toe" te klikken in het beheerdersoverzicht. Dan verschijnt er een formulier
+met een aantal standaardgegevens. De optie "superuser" is om de nieuwe beheerder ook de rechten te geven om de beheerders te beheren.
+
+<h2>5.2 Beheerders bewerken</h2>
+Om een beheerder te bewerken, klik op de link in het beheerdersoverzicht. Het is ook mogelijk om eerst de informatie over de beheerder te bekijken en dan op de link "Bewerk beheerder" te klikken.
+<h2>5.3 Beheerders verwijderen</h2>
+Om een beheerder te verwijderen, klik op de link in het beheerdersoverzicht. Het is ook mogelijk om eerst de informatie over de beheerder te bekijken en dan op de link "Verwijder beheerder" te klikken.
+<br><br>Vanwege veiligheidsredenen is het niet mogelijk om de 1e beheerder te verwijderen. Dit is zo ingesteld, zodat de persoon die het systeem opzet, altijd nog toegang heeft tot het systeem.
+<h1>Hoofdstuk 6: Bestandsbeheer</h1>
+Als de beheerder op de pagina van het bestandsbeheer terecht is gekomen, dan ziet de beheerder een overzicht van de websites met het aantal bestanden erachter. 
+Als de beheerder nu op een website klikt, krijgt de beheerder het overzicht te zien van bestanden die bij een website horen. Dan kan er op een bestand geklikt worden om meer informatie over het bestand op te vragen.
+<br>Daarnaast zijn er meer mogelijkheden voor een beheerder, deze staan hieronder toegelicht.
+
+<h2>6.1 Bestand toevoegen</h2>
+Om een bestand toe te voegen, druk op de link "Voeg bestand toe". Druk daarna op de knop "Bladeren" (of "Browse") en selecteer het gewenste bestand. Vul daarna eventueel een omschrijving in en druk op de knop "Voeg bestand toe".
+Als er een fout optreed, dan komt er een melding op het scherm hierover met een uitleg erbij.
+<h2>6.2 Bestand bewerken</h2>
+Het is mogelijk om de omschrijving van een bestand te bewerken. Klik bij het bestandsoverzicht op de bewerk-link, vervolgens komt er een formulier op het scherm waarmee de gegevens gewijzigd kunnen worden.
+<h2>6.3 Bestand verwijderen</h2>
+Om een bestand te verwijderen, klik bij het bestandsoverzicht op de verwijder-link. Er wordt vervolgens om een bevestiging gevraagd.
+<h1>Hoofdstuk 7: Persoonlijke informatie</h1>
+Bij dit gedeelte kan de persoonlijke informatie worden bekeken. Als er gegevens veranderd moeten worden, dan kan dit ook hier. Druk dan op de link 'Bewerk gegevens'.
+
+<h1>Hoofdstuk 8: Logboek</h1>
+
+In het logboek staan alle acties van de beheerders en gebruikers. Zo kan er op elk moment na worden gegaan wie welke actie heeft uitgevoerd. 
+<br><br>
+<h2>8.1 Logboek bekijken</h2>
+Er zijn verschillende manieren om het logboek te bekijken. Als eerste kan je gewoon de laatste acties bekijken. Daarnaast is het mogelijk 
+om op bepaalde criteriapunten te zoeken in het logboek. Deze staan onderaan de logboek.<br><br>
+Om de zoekcriteria te resetten, kan er op de link 'Reset zoekcriteria' geklikt worden.
+
+<h2>8.2 Logboek legen</h2>
+Het is mogelijk om het logboek te legen, want het logboek zal na een tijd gigantisch groot zijn. Het logboek legen kan door 
+ op de link 'Leeg Logboek' te klikken. Het logboek wordt vervolgens geleegd en er komt een melding in het logboek te staan dat 
+ het geleegd is.
+
+
+
+<h1>Bijlage A: Checklist voor een nieuwe website</h1>
+
+<h2>A.1 Aanmaken in systeem</h2>
+Als eerste moet de website worden aangemaakt in i-CMS. Daarnaast kunnen ook alvast een aantal onderdelen en pagina's worden aangemaakt in het systeem.
+Hoe dit moet, staat al eerder in dit document beschreven.
+
+<h2>A.2 Voorbeeld website kopieëren</h2>
+In de map 'voorbeeldsite' staan de standaardbestanden die bij een website horen. 
+De inhoud van deze map kan worden gekopieerd naar de lokatie waar de website terecht moet komen. <br><br>
+
+<h2>A.3 Gegevens in het configuratiebestand</h2>
+Vervolgens moet het configuratiebestand van de klantwebsite ook worden aangepast. Het configuratiebestand staat in de map 'php' en heeft de naam 'config.php'. Hieronder staat een lijst met de variabelen in dit configuratiebestand met een toelichting erbij.
+<br><br>
+<table class="large" cellspacing="0">
+	<tr><td colspan="2" class="tableheader">Tabel A.1: Betekenis variabelen configuratiebestand voor klanten</td></tr>
+	<tr><td class="tablesubheader" width="20%">Variabele:</td><td class="tablesubheader">Betekenis:</td></tr>
+	<tr><td class="light">$strTemplateURL</td><td class="light">Het adres van de template die wordt gebruikt. Als deze niet is ingevuld, dan wordt de webpagina niet geladen.</td></tr>
+	<tr><td class="dark">$intWebsiteID</td><td class="dark">Het ID-nummer van de website. Deze staat vermeld bij de informatie van de website in het i-CMS systeem.</td></tr>
+	<tr><td class="light">$strSiteCode</td><td class="light">De specifieke websitecode van de website. Deze is nodig om na te gaan of de persoon wel de juiste content wilt opvragen. Deze staat vermeld bij de informatie van de website in het i-CMS systeem.</td></tr>
+	<tr><td class="dark">$strSiteURL</td><td class="dark">Het internetadres van de eigen website. Er moet een / op het einde staan</td></tr>
+	<tr><td class="light">$strFunctiesURL</td><td class="light">Het internetadres van i-CMS, waar vandaan het content wordt opgehaald. Er moet een / op het einde staan.</td></tr>
+	<tr><td class="dark">$strXMLscript</td><td class="dark">Het bestandsnaam van het script dat de data uitleest en naar XML omzet. Standaard is dit dataNaarXML.php.</td></tr>
+	<tr><td class="light">$strXSLTpagina</td><td class="light">De naam van het XSLT-bestand die zorgt voor de omzetting van XML van de content naar leesbare content. Standaard is dit 'xsl/pagina.xsl'.</td></tr>
+	<tr><td class="dark">$strXSLTheadlines</td><td class="dark">De naam van het XSLT-bestand die zorgt voor de omzetting van XML van de headlines naar leesbare headlines. Standaard is dit 'xsl/headlines.xsl'.</td></tr>
+	<tr><td class="light">$strXSLTmenu</td><td class="light">De naam van het XSLT-bestand die zorgt voor de omzetting van XML van het menu naar een echt menu. Standaard is dit 'xsl/menu.xsl'.</td></tr>
+	<tr><td class="dark">$strXSLTblok</td><td class="dark">De naam van het XSLT-bestand die zorgt voor de omzetting van XML van 1 blok naar het leesbare content. Standaard is dit 'xsl/blok.xsl'.</td></tr>
+	<tr><td class="light">$strEigenaarNaam</td><td class="light">De bedrijfsnaam van de eigenaar van i-CMS, standaard 'Impression New Media'.</td></tr>
+	<tr><td class="dark">$strEigenaarEmail</td><td class="dark">Het e-mailadres van de eigenaar van i-CMS, standaard 'info@impression.nl'.</td></tr>
+</table>
+<br>
+<h2>A.4 Template met tags</h2>
+Het is mogelijk om een aantal tags te gebruiken in de template. De template moet worden ingesteld in het configuratiebestand (zie hierboven).
+Er worden tot nu toe 4 tags toegestaan. Een aantal van deze tags kunnen zogenaamde attributen bevatten. Hieronder worden de tags besproken. De tags zijn trouwens niet hoofdlettergevoelig. 
+<br><br>
+De tags werken alleen als de XSLT-bestanden juist zijn opgezet. In principe wordt er door de tags alleen XML opgevraagd. Deze XML-bestanden kunnen dan worden uitgelezen en omgezet naar leesbare content met behulp van de XSLT-bestanden.
+<br><br>
+<h3>A.4.1 Content-tag</h3>
+Met '&lt;%-CONTENT-%&gt;' kan worden aangegeven waar het content van de pagina moet komen. Dit is voor alle pagina's een vaste plek. Deze tag kan maar 1 keer gebruikt worden in de pagina. 
+Hieronder staat een voorbeeld hoe zo'n tag gebruikt kan worden.
+<br><br>
+<table class="small" cellspacing="0">
+	<tr><td class="tableheader">Tabel A.2: Voorbeeld Content-tag</td></tr>
+	<tr><td class="code">&lt;%-CONTENT-%&gt;</td></tr>
+</table>
+<br><br>
+<h3>A.4.2 Menu-tag</h3>
+Met '&lt;%-MENU-%&gt;' kan worden aangegeven waar het menu van de pagina moet komen. Deze kan ook maar slechts een keer op een pagina gebruikt worden. De Menu-tag kan als volgt worden aangeroepen:
+<br><br>
+<table class="small" cellspacing="0">
+	<tr><td class="tableheader">Tabel A.3: Voorbeeld Menu-tag</td></tr>
+	<tr><td class="code">&lt;%-MENU-%&gt;</td></tr>
+</table>
+<br>
+Bij deze tag is het ook mogelijk om een attribute mee te geven. De manier waarop het attribute kan worden meegegeven is als volgt:
+<br><br>
+<table class="small" cellspacing="0">
+	<tr><td class="tableheader">Tabel A.4: Voorbeeld Menu-tag met attribuut</td></tr>
+	<tr><td class="code">&lt;%-MENU-%&gt;<i>attribuut</i>&lt;/%-MENU-%&gt;</td></tr>
+</table>
+<br>
+De verschillende attributen staan hieronder in de tabel. Als er een andere waarde wordt ingevuld, dan wordt de standaard optie gebruikt. 
+<br><br>
+<table class="large" cellspacing="0">
+	<tr><td colspan="2" class="tableheader">Tabel A.5: Attributen bij de Menu-tag</td></tr>
+	<tr><td class="tablesubheader" width="20%">Attribuut:</td><td class="tablesubheader">Toelichting:</td></tr>
+	<tr><td class="light">small</td><td class="light">Hiermee kan een klein menu worden getoond. Dit houdt in dat alleen de onderdelen worden getoond in het menu. <br>Deze optie wordt standaard gebruikt, wanneer er geen attribuut wordt meegegeven.</td></tr>
+	<tr><td class="dark">middle</td><td class="dark">Hiermee kan een gemiddeld menu worden getoond. Dit houdt in dat alleen de onderdelen en subonderdelen worden getoond in het menu.</td></tr>
+	<tr><td class="light">large</td><td class="light">Hiermee kan een groot menu worden getoond. Dit houdt in dat de onderdelen, subonderdelen en pagina's in het menu worden getoond.</td></tr>
+</table>
+<br>
+<h3>A.4.3 Headlines-tags</h3>
+Het is ook mogelijk om een aantal headlines op een pagina te plaatsen door middel van een speciale tag. 
+Dit houdt in dat er een aantal gegevens opgevraagd kunnen worden, door middel van de tag '&lt;%-HEADLINES-%&gt;'.<br><br>
+Deze tag heeft een aantal attributen nodig, zonder attributen zal het niets opvragen en misschien zelfs een error weergeven.<br>
+De volgende attributen zijn mogelijk:
+<ul>
+<li> Aantal headlines die opgevraagd worden
+<li> ID-nummer van de pagina (<b>verplicht</b>)
+<li> Oplopend/Aflopend
+</ul>
+
+
+Om 4 headlines van een bepaalde pagina op te vragen, moet het unieke ID-nummer van het betreffende pagina worden opgegeven. 
+Als het ID-nummer van de pagina bijvoorbeeld 20 is. Moet de tag er als volgt uitzien:
+<br><br>
+<table class="small" cellspacing="0">
+	<tr><td class="tableheader">Tabel A.7: Voorbeeld Headlines-tag</td></tr>
+	<tr><td class="code">&lt;%-HEADLINES-%&gt;4-20&lt;/%-HEADLINES-%&gt;</td></tr>
+</table>
+<br>
+Om het standaardaantal headlines van een bepaalde pagina op te vragen, moet alleen het unieke ID-nummer van het betreffende pagina worden opgegeven. 
+Als voorbeeld nemen we een pagina met nummer 20. Dit gaat op de volgende manier: 
+<br><br>
+<table class="small" cellspacing="0">
+	<tr><td class="tableheader">Tabel A.8: Voorbeeld Headlines-tag</td></tr>
+	<tr><td class="code">&lt;%-HEADLINES-%&gt;-20&lt;/%-HEADLINES-%&gt;</td></tr>
+</table>
+<br>
+Het is mogelijk om de manier te bepalen waarop de blokken worden opgevraagd. Hierbij heb je de keuze tussen oplopend en aflopend. 
+Standaard staat deze optie op aflopend, wat betekent dat de blokken in de normale volgorde staan (van positie 1 tot en met de laatste).
+Oplopend betekent dus dat de blokken van de onderste positie naar boven gaat. Deze manier kan bij de headlines van nieuwsblokken handig zijn.
+<br><br>
+Via onderstaande manier kan er worden bepaald dat er bij de pagina met ID-nummer '20' de blokken oplopend zijn.
+<br><br>
+<table class="small" cellspacing="0">
+	<tr><td class="tableheader">Tabel A.9: Voorbeeld Headlines-tag</td></tr>
+	<tr><td class="code">&lt;%-HEADLINES-%&gt;-20-O&lt;/%-HEADLINES-%&gt;</td></tr>
+</table>
+<br>
+
+<h3>A.4.4 Blok-tag</h3>
+De Blok-tag kan worden gebruikt om 1 blok op elke pagina te laten zien. Daarvoor moet het unieke ID-nummer van het blok worden opgegeven.
+<br>
+Zie hieronder een voorbeeld om bijvoorbeeld blok met het nummer '13' te laten zien op het scherm:
+<br><br>
+<table class="small" cellspacing="0">
+	<tr><td class="tableheader">Tabel A.10: Voorbeeld Blok-tag</td></tr>
+	<tr><td class="code">&lt;%-BLOK-%&gt;13&lt;/%-BLOK-%&gt;</td></tr>
+</table>
+<br>
+
+<h2>A.5 XSLT-bestanden aanmaken</h2>
+XSLT staat voor Extensible Stylesheet Language Transformations en is bedoeld om XML om te zetten naar de leesbare content. Het voordeel is dat alle gegevens uit XML toegepast kunnen worden in elke lay-out. 
+De inhoud van de website is opgebouwd uit enkele XML-tags die automatisch worden gegenereerd uit het systeem. Deze bevatten gegevens van verschillende onderdelen. Hieronder staat een XML-bestand als voorbeeld.
+<br><br>
+<table class="large" cellspacing="0">
+	<tr><td class="tableheader">Tabel A.11: Voorbeeld XML-bestand</td></tr>
+	<tr><td class="code">
+	&lt;website id=&quot;1&quot;&gt;<br>
+&lt;oid&gt;2&lt;/oid&gt;<br>
+&lt;pid&gt;1&lt;/pid&gt;<br>
+&lt;pagina&gt;<br>
+&lt;paginaid&gt;2&lt;/paginaid&gt;<br>
+
+&lt;paginatype&gt;content&lt;/paginatype&gt;<br>
+&lt;paginatitel&gt;Wie is Impression&lt;/paginatitel&gt;<br>
+&lt;paginapositie&gt;1&lt;/paginapositie&gt;<br>
+&lt;paginaoid&gt;2&lt;/paginaoid&gt;<br>
+&lt;paginadeelnr&gt;0&lt;/paginadeelnr&gt;<br>
+
+&lt;totaal&gt;1&lt;/totaal&gt;<br>
+&lt;limiet&gt;10&lt;/limiet&gt;<br>
+&lt;contentblok&gt;<br>
+&lt;contentblokid&gt;12&lt;/contentblokid&gt;<br>
+&lt;contenttitel&gt;Wie is Impression&lt;/contenttitel&gt;<br>
+&lt;contenttype&gt;tekst&lt;/contenttype&gt;<br>
+&lt;contentpositie&gt;1&lt;/contentpositie&gt;<br>
+&lt;pid&gt;1&lt;/pid&gt;<br>
+&lt;oid&gt;2&lt;/oid&gt;<br>
+	&lt;content&gt;<br>
+&lt;div id=&quot;12&quot; style=&quot;font-face: Arial; font-size: 11px; text-align: left;&quot;&gt;<br>
+Wie internet en indentity serieus neemt, opent een wereld met een oneindige hoeveelheid mogelijkheden. In die wereld van informatie, identiteit en communicatie speelt Impression NewMedia de rol van loods. Na de tijd van veelbelovende 'new economies' en wellicht te hoge ambities moet een onderneming tegenwoordig meer realistisch zijn. Nu meer dan ooit nadat de 'hype' omgezet is naar een vast gegeven. Want inmiddels is ruim tachtig procent van de Nederlandse bevolking op Internet aanwezig. Omgaan met Internet betekent evenredig aandacht hebben voor inhoud, vorm en techniek. Alleen als aan die factoren wordt voldaan, komen gevoel, kennisoverdracht en interactie volledig tot hun recht. Alleen met een gestructureerde aanpak wordt de basis voor communicatie met uw doelgroep via Internet gelegd. Een gerichte benadering en actuele informatie zijn de succesfactoren. Ook &amp;amp;ugrave;w klanten of bezoekers van de site willen graag gericht benaderd worden. Realiseert u zich wel dat Internet de tijd tussen kijken en kopen kan verkorten? Als uw concurrent zich beter profileert op Internet is die kans aanwezig. Met die wetenschap bouwt Impression NewMedia sites en complete content management systemen die het gehele moderne proces ondersteunen.&lt;/div&gt;<br>
+&lt;/content&gt;<br>
+&lt;/contentblok&gt;<br>
+&lt;/pagina&gt;<br>
+&lt;/website&gt;<br>
+	</td></tr>
+</table>
+<br>
+Als voorbeeld laten we bijvoorbeeld de titel van de pagina laten zien en de titel van de blokken, maar ook het content van de blokken. Zier hieronder daarvoor het voorbeeld
+<br><br>
+<table class="large" cellspacing="0">
+	<tr><td class="tableheader">Tabel A.12: Voorbeeld XSLT-tags</td></tr>
+	<tr><td class="code">
+<i>&lt;?xml version="1.0" encoding="iso-8859-1"?&gt;<br>
+&lt;xsl:stylesheet version ="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;<br>
+	&lt;xsl:output method="html"/&gt;<br>
+	&lt;xsl:template match="/"&gt;</i><br><br>
+&lt;xsl:for-each select="website/pagina"&gt;<br>
+	            &lt;h1 style="text-transform: uppercase;"&gt;&lt;xsl:value-of select="paginatitel"/&gt;&lt;/h1&gt;<br>
+	          &lt;/xsl:for-each&gt;<br>
+	          &lt;xsl:for-each select="website/pagina/blok"&gt;<br>
+	            &lt;p class="tekstKOP">&lt;xsl:value-of select="bloktitel"/&gt&lt;/p&gt;<br>
+	            &lt;xsl:value-of select="content"/>&lt;br/&gt;<br>
+	          &lt;/xsl:for-each&gt;<br>
+<br><i>
+	 &lt;/xsl:template &gt;<br>
+ &lt;/xsl:stylesheet &gt;</i>
+	</td></tr>
+</table>
+<br>
+Nu een extra toelichting hierbij. De schuine regels zijn standaard regels, deze geven aan wat voor document het is. De regels in het midden die lezen het XML-bestand uit. In dit geval laat het van elke pagina-tag de inhoud van de paginatitel-tag zien. 
+<br>Daarna laat het van elke blok-tag, die tussen de pagina-tags zit, de inhoud van de bloktitel- en het content-tag zien.
+<br><br>Zoals te zien is, staan er ook HTML-tags en verwijzingen naar stylesheets in de XSLT-code. Deze kunnen gewoon worden gecombineerd. 
+<br><br>
+Voor meer voorbeelden moeten er in de standaard xsl-bestanden worden gekeken. Daar staat wat voor tags er kunnen worden getoond. <br>
+In bijlage B staat een overzicht van links naar websites die informatie geven over het onderwerp XSLT.
+<br><br>
+De XML van de headlines- de blok-tags werken op dezelfde manier als bovenstaand. De XML van de menu-tags werkt weer anders, maar dat staat in het XSLT-bestand voor het menu verder toegelicht.
+<h1>Bijlage B: Handige websites</h1>
+Deze bijlage is om een overzicht te geven van een aantal handige websites. 
+<br><br>
+<table class="large" cellspacing="0">
+	<tr><td class="tableheader" colspan="2">Tabel B.1: Links naar andere websites</td></tr>
+	<tr><td class="tablesubheader" width="20%">Websitenaam:</td><td class="tablesubheader">Beschrijving:</td></tr>
+	<tr><td class="light"><a href="http://www.naarvoren.nl/artikel/xslt.html">Naarvoren - XSLT</a></td><td class="light">Introductie tot XSLT</td></tr>
+	<tr><td class="dark"><a href="http://nl.wikipedia.org/wiki/XSLT">Wikepedia NL - XSLT</a></td><td class="dark">Wikepedia NL's uitleg over XSLT</td></tr>
+	<tr><td class="light"><a href="http://www.w3schools.com/xsl/">W3Schools - XSLT</a></td><td class="light">Hier staat een beschrijving van hoe XSLT werkt. Ook staan er een aantal voorbeelden bij.</td></tr>
+</table>
+<br><br>
+
+
+</div>
+
+
+</body>
+</html>

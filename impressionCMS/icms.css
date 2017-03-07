@@ -1,0 +1,277 @@
+  /* Algemene instellingen */
+  A {
+    color: black;
+  	text-decoration: none;
+  }
+  A:hover {
+  	text-decoration: underline;
+  }
+  body {
+	    font-family: Verdana, Sans-Serif;
+    background-color: white;
+    color: black;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+  }
+  td {
+    padding: 0px;
+  	font-family: Verdana, Sans-Serif;
+  	font-size: 12px;
+  	text-align: left;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* Instellingen mbt formulieren */
+  input, textarea, select, option {
+    font-family: Verdana, Sans-Serif;
+  	font-size: 12px;
+  	padding: 1px;
+  }
+  optgroup {
+  	font-family: Verdana, Sans-Serif;
+  	font-size: 12px;
+  	padding: 1px;
+  	font-weight: normal;
+  	font-style: italic;
+  }
+  select {
+  	width: 100px;
+  }
+  select.groot {
+  	  	width: 200px;
+  }
+  option.subOnderdeelSelect0 {
+  	margin: 1px 1px 1px 5px;
+  }
+  option.subOnderdeelSelect1 {
+  	margin: 1px 1px 1px 15px;
+  }
+  input.button {
+  	font-size: 11px;
+  	font-weight: bold;
+  	color: white;
+  	background-color: #336699;
+  	margin: 3px;
+  	padding: 1px 2px 1px 2px;
+  }
+  /* Instellingen voor links */
+  A.linkitem {
+  	color: white;
+  	font-weight: bold;
+  	font-style: italic;
+  	text-decoration: none;
+  }
+  A.linkitem:hover {
+  	text-decoration: underline;
+  }
+  A.menuitem:hover {
+  	text-decoration: none;
+  }
+  /* Instellingen voor tabellen */
+  TABLE.websiteTable {
+    padding: 0px;
+  	width: 740px;
+  }
+  TABLE.menu {
+  	width: 150px;
+  	border: 0px;
+  	padding: 0px;
+  	margin: 0px;
+  }
+  TABLE.overzicht {
+    width: 540px;
+    background-color: #ECECEC;
+    border: 2px solid #336699;
+  	margin: 0px 10px 0px 10px;
+  }
+  TABLE.inlogform {
+    width: 400px;
+    border: 2px solid #336699;
+  }
+  /* Instellingen voor kolommen */
+  TD.header {
+  	border-right: 1.5px solid #336699;
+   	border-left: 1.5px solid #336699;
+  	width: 600px;
+	margin: 0px;
+  }
+  TD.ruimte {
+  	width: 120px;
+  }
+  TD.menu {
+  	width: 150px;
+  	color: black;
+  	background-color: #ECECEC;
+  	border: 1.5px solid #336699;
+  	border-right: 0px;
+  	border-bottom: 0px;
+  	vertical-align: top;
+  }
+  TD.menutitle {
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+  	background-color: #336699;
+  	padding: 3px;
+  	text-align: center;
+  }
+  TD.menuitem {
+  	background-color: #ECECEC;
+  	padding: 2px 2px 2px 10px;
+  }
+  TD.menuitemover {
+  	background-color: #6991bB;
+  	padding: 2px 2px 2px 10px;
+  	cursor: pointer;
+  }
+  TD.onderschrift {
+  	font-size: 10px;
+  	width: 600px;
+  	height: 15px;
+  	color: white;
+  	text-align: center;
+  	vertical-align: middle;
+  	background-color: #336699;
+  	border-left: 1.5px solid #336699;
+  	border-right: 1.5px solid #336699;
+  	border-bottom: 1.5px solid #336699;
+  	border-top: 1.5px solid #336699;  	  	
+  	padding: 5px;
+  }
+  TD.gebruikersinfo {
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    width: 600px;
+    background-color: #ECECEC;
+  	border-left: 1.5px solid #336699;
+  	border-right: 1.5px solid #336699;
+  	border-bottom: 1.5px solid #336699;
+  	border-top: 1.5px solid #336699;  	
+  	padding: 5px;
+  	text-align: right;
+  	font-style: italic;
+  }
+  TD.content {
+    font-size: 12px;
+    background-color: white;
+  	border-right: 1.5px solid #336699;
+   	border-left: 1.5px solid #336699;
+    width: 600px; 
+    vertical-align: top;
+    padding: 25px 5px 25px 25px;
+  }
+  TD.tabletitle {
+    font-size: 13px;
+    font-weight: bold;
+	background-color: #336699;
+    color: white;
+    padding: 4px 4px 4px 8px;
+  }
+  TD.tableinfo {
+    background-color: #6991bB;
+    border-top: solid #336699;
+    border-bottom: solid #336699;
+  	color: black;
+  	font-size: 12px;
+  	padding: 2px 2px 2px 8px;
+  }
+  TD.formvak {
+	background-color: #ECECEC;
+  	color: black;
+  	font-size: 12px;
+  	padding: 2px 2px 2px 8px;
+  	text-align: left;
+  	vertical-align: middle;
+  }
+  TD.formvak2 {
+	background-color: #ECECEC;
+	border-top: 1px dashed black;	
+  	color: black;
+  	font-size: 12px;
+  	padding: 2px 2px 2px 8px;
+  	text-align: left;
+  	vertical-align: middle;
+  }
+  TD.formvakb {
+	background-color: #ECECEC;
+  	color: black;
+  	font-size: 12px;
+  	font-weight: bold;
+  	padding: 2px 2px 2px 8px;
+  	text-align: left;
+  	vertical-align: middle;
+  }
+  TD.buttonvak {
+  	vertical-align: top;
+	background-color: #ECECEC;
+  	font-size: 12px;
+  	color: black;
+  	padding: 2px 2px 2px 8px;
+  	text-align: right;
+  }  
+  TD.tablelinks {
+    background-color: #336699;
+  	font-size: 11px;
+  	color: white;
+  	text-align: right;
+  	padding: 2px 4px 2px 0px;
+  }
+  TD.inhoudOnderdeel {
+  	padding: 2px 2px 2px 5px;
+  }
+  TD.inhoudSubOnderdeel0 {
+  	padding: 2px 2px 2px 25px;
+  }
+  TD.inhoudSubOnderdeel1 {
+  	padding: 2px 2px 2px 35px;
+  }
+  TD.inhoudSubOnderdeel2 {
+  	padding: 2px 2px 2px 45px;
+  }
+  TD.inhoudSubOnderdeel3 {
+  	padding: 2px 2px 2px 55px;
+  }  
+  TD.inhoudPagina {
+  	padding: 2px 2px 2px 65px;
+  }
+  TD.inhoudMenu {
+ 	padding: 2px;
+  	text-align: right;
+  	width: 120px;
+  }
+ /* Overige instellingen */
+  #error {
+    font-size: 11px;
+    font-weight: bold;
+  	color: red;
+  	width: 480px;
+  	background-color: #ECECEC;
+    border-width: 2px;
+  	border-style: dotted;
+  	border-color: red;
+  	margin: 0px 10px 10px 20px;
+  	padding: 5px;  	  	
+  }
+  #mededeling {
+    font-size: 11px;
+    font-weight: bold;
+  	color: green;
+  	width: 480px;
+  	background-color: #ECECEC;
+    border-width: 2px;
+  	border-style: dotted;
+  	border-color: green;
+  	margin: 0px 10px 10px 20px;
+  	padding: 5px;  	  	
+  }  
+ .linkCursor {
+  	cursor: pointer;
+ }
+ .redStar {
+ 	font-weight: bold;
+ 	line-height: 10px;
+	color: red;
+ }

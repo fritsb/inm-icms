@@ -1,0 +1,54 @@
+TD {
+	vertical-align: top;
+}
+
+.nieuwsKOP { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #FFFFFF; }
+
+.nieuwsBROOD 			{ font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #FFFFFF; }
+.nieuwsBROOD A:link 	{ font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #FFFFFF; }
+.nieuwsBROOD A:active 	{ font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #FFFFFF; }
+.nieuwsBROOD A:visited 	{ font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #FFFFFF; }
+.nieuwsBROOD A:hover 	{ font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #FFFFFF; }
+
+.tekstKOP { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #666666; }
+
+.tekstBROOD 			{ font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #666666; }
+.tekstBROOD A:link 		{ font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #666666; }
+.tekstBROOD A:active 	{ font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #666666; }
+.tekstBROOD A:visited 	{ font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #666666; }
+.tekstBROOD A:hover 	{ font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #666666; }
+
+/* Voorbeeld van stylesheets bij het contactformulier
+   10 staat voor het ID-nummer van het contentblok */
+.fieldset10 {
+  border: 0px;
+  border: none;
+  width:300px;
+ }
+.fieldset10 .nobr {display:none;} 
+.fieldset10 label {
+width:100px;
+float:left;
+padding:0.2em;
+margin:0;
+margin-top:0.3em;
+}
+.fieldset10 .textfield {
+border: 1px solid black; 
+margin:3px;
+height:20px;
+width: 180px;
+}
+.fieldset10 .textarea {
+border: 1px solid black; 
+margin:3px;
+height:165px;
+width: 180px;
+}
+.fieldset10 .submit {
+border: 1px solid black; 
+margin:3px;
+width: 180px;	
+}
+
+.contactKOP {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #666666; }
